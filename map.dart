@@ -3,4 +3,5 @@ void main() {
 
   //Printing Map
   print(fruits);
+  print(fruits["anar"]);
 }
