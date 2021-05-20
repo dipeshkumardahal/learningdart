@@ -12,4 +12,9 @@ void main() {
 
   print(
       "The first number is ${a} \nThe Second number is ${b} \n the sum is ${sum} minus is ${minus}\n multification is ${mul} division is ${div}\n and the modulas of ${b} and ${a} is ${modu}");
+
+  const PI = 3.14;
+  var radius = 5;
+  var area = PI * radius * radius;
+  print("The area of circle is ${area}");
 }
