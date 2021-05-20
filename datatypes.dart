@@ -9,8 +9,8 @@ void main() {
   var fathersName = "Suresh Raj Dahal";
   var dadAge = 58;
   var sisters = ['Dipa', 'Dikshya'];
-
+  var dob = DateTime(1995);
   //Printing Some Variables
   print(
-      "Hello World I am ${name}.\n My age is ${age}.\n I got ${slcScore} in SLC.\n I like ${hobby}.\n I am single that is ${isSingle}.\n I have ${sisters.length} Sisters they are ${sisters}");
+      "Hello World I am ${name}.\n born in ${dob.year} My age is ${age}.\n I got ${slcScore} in SLC.\n I like ${hobby}.\n I am single that is ${isSingle}.\n I have ${sisters.length} Sisters they are ${sisters}");
 }
